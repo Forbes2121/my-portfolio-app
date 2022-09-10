@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Home from './home/Home';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Project from './projects/Project';
 import Projects from './projects/Projects';
@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className={`App ${colorMode}`}>
-      <Switch >
+      <Routes >
         <Route exact={true} path="/projects" >
           <Projects projects={projects} />
         </Route>
@@ -68,7 +68,7 @@ function App() {
         <Route >
           <NotFound />
         </Route>
-      </Switch>
+      </Routes>
       <div className="darkModeSwitch form-check form-switch">
       {/* <span className="oi oi-sun " /> */}
         <input className="form-check-input" 

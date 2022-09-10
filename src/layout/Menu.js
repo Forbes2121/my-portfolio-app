@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Menu(){
 
-    const path = useHistory().location.pathname;
+    const path = useNavigate().location.pathname;
 
     const activeInitiator = {
         about: "",
