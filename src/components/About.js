@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />I love to learn and digest new technologies.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm an aspiring software developer with previous experience as a front-office trader and execution salesman focused on Fixed Income US Treasuries. Passionate about learning and growing. Interested in opportunities within tech, fintech, sales, and all things crypto. 
+            I'm an aspiring software developer with previous experience as a front-office trader and execution salesman focused on Fixed Income US Treasuries. Passionate about learning and growing while interested and actively looking for opportunities within the tech, fintech, sales, and crypto spaces. 
           </p>
           <div className="flex justify-center">
             <a

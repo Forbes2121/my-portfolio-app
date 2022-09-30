@@ -12,7 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Check out some of the apps I have been during my time learning Software Development via Thinkful's online bootcamp. I completed the course and earned my certificate in August 2022.
+            Check out some of the apps I have built during my time learning Software Development via Thinkful's online bootcamp. I completed the course and earned my certificate in August 2022.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

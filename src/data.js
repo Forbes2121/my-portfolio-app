@@ -1,3 +1,12 @@
+import grandcanyon from './Photos/grandcanyon.jpg';
+import skimboarding from './Photos/skimboarding.jpg';
+import stowegondola from './Photos/stowegondola.jpg';
+import soccerdribbling from './Photos/soccerdribbling.jpg';
+import wakeboarding from './Photos/wakeboarding.jpg';
+import jetskiskyline from './Photos/jetskiskyline.jpg';
+import rockclimbing from './Photos/rockclimbing.jpg';
+import snowywhiteface from './Photos/snowywhiteface.jpg';
+
 export const projects = [
   {
     title: "React Reserve",
@@ -36,17 +45,43 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "Grand Canyon hiking trip.",
+    image: grandcanyon,
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "Skimboarding at Emerald Isle, NC.",
+    image: skimboarding,
+  },
+  {
+    quote:
+      "Snowboarding in Stowe, VT.",
+    image: stowegondola,
+  },
+  {
+    quote:
+      "Wakeboarding out in Long Island, NY.",
+    image: wakeboarding,
+  },
+  {
+    quote:
+      "Soccer game in New York City, NY.",
+    image: soccerdribbling,
+  },
+  {
+    quote:
+      "Jetskiing the inner harbour of NYC.",
+    image: jetskiskyline,
+  },
+  {
+    quote:
+      "Rockclimbing indoors in Syracuse, NY.",
+    image: rockclimbing,
+  },
+  {
+    quote:
+      "Top of Whiteface Mountain, NY.",
+    image: snowywhiteface,
   },
 ];
 
