@@ -1,5 +1,4 @@
 import React from "react";
-import { TerminalIcon } from "@heroicons/react/solid";
 import { testimonials } from "../data";
 import { HiOutlineGlobe } from "react-icons/hi";
 import { HiDesktopComputer} from "react-icons/hi";
@@ -24,7 +23,7 @@ export default function Testimonials() {
                     alt={testimonial.quote}
                     src={testimonial.image}
                     className="w-12 object-cover object-center"
-                    style={{width: '250px', height: '100%', borderRadius: '10px'}}
+                    style={{width: '100%', height: '100%', borderRadius: '10px'}}
                     
                   />
                   <span className="flex-grow flex flex-col pl-4">
