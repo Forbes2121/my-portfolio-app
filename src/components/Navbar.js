@@ -18,7 +18,7 @@ export default function Navbar() {
             Skills
           </a>
           <a href="#testimonials" className="mr-5 hover:text-white">
-            Outside Coding
+            Photos
           </a>
           <a href="#socials" className="mr-5 hover:text-white">
             Socials

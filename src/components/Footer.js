@@ -22,30 +22,30 @@ export default function Footer(){
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
           Social Links
         </h1>
-            <div className="text-center mb-20">
+            <div className="text-center mb-10">
                 <div className="col social social-linkedin">
                     <a href="https://www.linkedin.com/in/forbes-2121/" target="_blank" rel="noreferrer"
                         onMouseEnter={() => setSocialMessage(messages.linkedin)}
                         onMouseLeave={() => setSocialMessage(messages.blank)}
-                    ><span><SiLinkedin className="inline-block"/>   LinkedIn</span></a>
+                    ><span> <SiLinkedin className="inline-block"/>   LinkedIn</span></a>
                 </div>
                 <div className="col social social-github">
                     <a href="https://github.com/Forbes2121" target="_blank" rel="noreferrer"
                         onMouseEnter={() => setSocialMessage(messages.github)}
                         onMouseLeave={() => setSocialMessage(messages.blank)}
-                    ><span><FaGithub className="inline-block"/>   GitHub</span></a>
+                    ><span> <FaGithub className="inline-block"/>   GitHub</span></a>
                 </div>
                 <div className="col social social-email">
                     <a href="mailto:forbes2121@gmail.com" target="_blank" rel="noreferrer"
                         onMouseEnter={() => setSocialMessage(messages.email)}
                         onMouseLeave={() => setSocialMessage(messages.blank)}
-                    ><span><SiGmail className="inline-block"/>   Email</span></a>
+                    ><span> <SiGmail className="inline-block"/>   Email</span></a>
                 </div>
                 <div className="col social social-instagram">
                     <a href="https://www.instagram.com/tyler.forbes/" target="_blank" rel="noreferrer"
                         onMouseEnter={() => setSocialMessage(messages.instagram)}
                         onMouseLeave={() => setSocialMessage(messages.blank)}
-                    ><span><GrInstagram className="inline-block"/>   Instagram</span></a>
+                    ><span> <GrInstagram className="inline-block"/>   Instagram</span></a>
                 </div>
                 <br/>
         <div className="navWrapper mb-8 text-white">
@@ -54,6 +54,7 @@ export default function Footer(){
                 </p>
         </div>
         </div>
+        <h3>Made by me, Tyler Forbes.</h3>
         </div>
         </section>
     )

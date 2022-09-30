@@ -3,6 +3,7 @@ import { TerminalIcon } from "@heroicons/react/solid";
 import { testimonials } from "../data";
 import { HiOutlineGlobe } from "react-icons/hi";
 import { HiDesktopComputer} from "react-icons/hi";
+import { RiCamera3Line } from "react-icons/ri";
 
 export default function Testimonials() {
   return (
@@ -16,8 +17,8 @@ export default function Testimonials() {
           {testimonials.map((testimonial) => (
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                <TerminalIcon className="block w-8 text-gray-500 mb-4" />
-                <p className="leading-relaxed mb-6">{testimonial.quote}</p>
+                <RiCamera3Line className="block w-8 text-gray-500 mb-4" size='2em'/>
+                <p className="leading-relaxed mb-4">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
                   <img
                     alt={testimonial.quote}
