@@ -9,36 +9,36 @@ import snowywhiteface from './Photos/snowywhiteface.jpg';
 
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Restaurant Reservations",
+    subtitle: "PERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Fully deployed app that can allow a restaurant to track new reservations, existing reservations, delete reservations, and can manage their tables all via api.",
+    image: "./restaurantresy.gif",
+    link: "https://forbes-frontend-app.herokuapp.com/dashboard",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Flashcards App",
+    subtitle: "JavaScript and React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Created an app that allows the user to create and store flashcards, flip through them for studying purposes, and then delete them if necessary.",
+    image: "./flashcards.gif",
+    link: "https://github.com/Forbes2121/Flashcards-App-Solution",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Meme Generator",
+    subtitle: "JS, React, HTML and CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Created a React app that allows the user to generate a meme throught top/bottom text based on a random image that is stored via an API.",
+    image: "./memegenerator.gif",
+    link: "https://github.com/Forbes2121/Meme-Generator",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "WeLoveMovies Project",
+    subtitle: "PERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Created a back end API utilizing PostgreSQL and Knex in order to go alongside the front-end user interface for a fully loaded movie theater app.",
+    image: "./welovemovies.gif",
+    link: "https://github.com/Forbes2121/WeLoveMovies-Capstone",
   },
 ];
 
