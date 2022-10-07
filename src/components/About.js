@@ -12,7 +12,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed">
             I'm an aspiring software developer with previous experience as a front-office trader and execution salesman focused on Fixed Income US Treasuries.  
             <br/>
-            <br className="hidden lg:inline-block" /> 
+            <br/> 
             Passionate about learning and growing while interested and actively looking for opportunities within the tech, fintech, sales, and crypto spaces. 
           </p>
           <div className="flex justify-center">
