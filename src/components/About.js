@@ -7,10 +7,10 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, my name is Tyler.
-            <br className="hidden lg:inline-block" />I love to learn and digest new technologies.
+            <br className="hidden lg:inline-block" /> I love to learn and digest new technologies.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm an aspiring software developer with previous experience as a front-office trader and execution salesman focused on Fixed Income US Treasuries. 
+            I'm an aspiring software developer with previous experience as a front-office trader and execution salesman focused on Fixed Income US Treasuries.  
             <br className="hidden lg:inline-block" />
             <br className="hidden lg:inline-block" /> 
             Passionate about learning and growing while interested and actively looking for opportunities within the tech, fintech, sales, and crypto spaces. 
