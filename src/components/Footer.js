@@ -24,7 +24,7 @@ export default function Footer(){
         </h1>
             <div className="text-center mb-10">
                 <div className="col social social-linkedin">
-                    <a href="https://www.linkedin.com/in/tyler-forbes-2121/" target="_blank" rel="noreferrer"
+                    <a href="https://www.linkedin.com/in/tyler-forbes2121/" target="_blank" rel="noreferrer"
                         onMouseEnter={() => setSocialMessage(messages.linkedin)}
                         onMouseLeave={() => setSocialMessage(messages.blank)}
                     ><span> <SiLinkedin className="inline-block"/>   LinkedIn</span></a>
